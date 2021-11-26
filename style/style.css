@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    height: 100vh;
+}
+
+div.master{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(to right top, rgb(44, 42, 43) , rgb(158, 219, 88), rgb(28, 40, 207));
+    
+}
+
+div.master div.container {
+    width: 300px;
+    background: linear-gradient(rgb(49, 49, 59), rgb(85, 85, 226), rgb(151, 151, 209));
+    padding: 30px 10px;
+    border-radius: 30px;
+    box-shadow: -10px -10px 10px rgb(20, 20, 90),
+    10px 10px 10px rgb(20, 20, 90);
+}
+
+div.master div.container h2{
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: white;
+}
+div.master div.container form > div > ion-icon{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+div.master div.container form > div > input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px 1px rgb(94, 206, 159);
+}
+div.master div.container form > div > input.alinhar-input{
+    position: relative;
+    top: -7px;
+    margin-left: 5px;
+}
+div.master div.container form > div.box-submit{
+    display: flex;
+    justify-content: center;
+}
+div.master div.container div:last-of-type > input{
+    width: 60%;
+    transition: 1s;
+}
+div.master div.container div:last-of-type > input:hover{
+    background-color: #ccc;
+}
+div.master div.container div.new-cadastro a{
+    text-decoration: none;
+    color: white;
+}
+.user_erro{
+    color: rgb(238, 53, 53);
+    padding: 10px 0;
+    display: block;
+    font-weight: 300;
+}
+div.box-password{
+    position: relative;
+}
+.eye-icon{
+    position: absolute;
+    top: 10px;
+    right: 28px;
+    color: rgb(11, 17, 2) !important;
+    font-size: 22px !important;
+}
+#span-pass{
+    position: absolute;
+    top: 16px;
+    left: 45px;
+
+}
